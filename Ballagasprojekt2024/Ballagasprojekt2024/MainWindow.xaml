@@ -1,0 +1,15 @@
+﻿<Window x:Class="Ballagasprojekt2024.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ballagasprojekt2024"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Megrendelés rögzítése" HorizontalAlignment="Left" VerticalAlignment="Center" Width="226" Height="41" Margin="473,0,0,0" FontSize="20" FontFamily="Forte"/>
+        <Button Content="Megrendelés modosítása" HorizontalAlignment="Left" Margin="301,282,0,0" VerticalAlignment="Top" Width="213" Height="41" FontSize="18" FontFamily="Forte"/>
+        <Button Content="Megrendelés törlése" HorizontalAlignment="Left" Margin="122,371,0,0" VerticalAlignment="Top" Width="212" Height="40" FontSize="16" FontFamily="Forte"/>
+        <Label Content="Ballagás" HorizontalAlignment="Left" Margin="0,51,0,0" VerticalAlignment="Top" Width="456" FontSize="72" HorizontalContentAlignment="Center" Height="118" FontFamily="Forte"/>
+    </Grid>
+</Window>
