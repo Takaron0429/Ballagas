@@ -15,7 +15,6 @@ body{
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    
     min-height: max-content;
     background-size: cover;
     background-position: center;
@@ -26,6 +25,16 @@ body{
    overflow: hidden;
    color: white;
 }
+
+#Hagyomany{
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
+
 
 #logo,
 #footer-logo {
@@ -95,3 +104,4 @@ th {
     background-color: #C2A878;
     
 }
+
