@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Megrendelés rögzítése" HorizontalAlignment="Left" VerticalAlignment="Center" Width="226" Height="41" Margin="473,0,0,0" FontSize="20" FontFamily="Forte"/>
+        <Button Content="Megrendelés modosítása" HorizontalAlignment="Left" Margin="301,282,0,0" VerticalAlignment="Top" Width="213" Height="41" FontSize="18" FontFamily="Forte"/>
+        <Button Content="Megrendelés törlése" HorizontalAlignment="Left" Margin="122,371,0,0" VerticalAlignment="Top" Width="212" Height="40" FontSize="16" FontFamily="Forte"/>
+        <Label Content="Ballagás" HorizontalAlignment="Left" Margin="0,51,0,0" VerticalAlignment="Top" Width="456" FontSize="72" HorizontalContentAlignment="Center" Height="118" FontFamily="Forte"/>
     </Grid>
 </Window>
