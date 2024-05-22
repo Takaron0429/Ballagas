@@ -30,10 +30,23 @@ body{
     color: white;
     font-weight: 400;
 }
+#CC{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(8, 110, 117);
+    height: 250px;
+   
+}
+#Form{
+    background-color: darkseagreen;
+}
 
-
-
-
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+   color: black;
+   border-radius: 3px ;
+}
 
 
 #logo,
