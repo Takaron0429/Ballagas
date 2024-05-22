@@ -1,0 +1,21 @@
+﻿<Window x:Class="Ballagasprojekt2024.rögzites"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ballagasprojekt2024"
+        mc:Ignorable="d"
+        Title="rögzites" Height="450" Width="800">
+    <Grid>
+        <Label Content="ugyid" HorizontalAlignment="Left" Margin="27,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="cikkszam" HorizontalAlignment="Left" Margin="112,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="allapot" HorizontalAlignment="Left" Margin="316,253,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" x:Name="ugyidtext" Margin="112,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="cikkszamtext" Margin="234,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="allapottext" Margin="429,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="mennyiseg" HorizontalAlignment="Left" Margin="489,364,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" x:Name="mennyisegtext" Margin="617,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="rögzit" x:Name="rogzit" HorizontalAlignment="Left" Margin="112,364,0,0" VerticalAlignment="Top" Width="128" Height="42" Click="rogzit_Click" />
+
+    </Grid>
+</Window>
