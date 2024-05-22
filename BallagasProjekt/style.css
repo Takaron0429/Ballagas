@@ -47,7 +47,55 @@ body{
    color: black;
    border-radius: 3px ;
 }
+#Idezet {
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+#Idezet .col-12 {
+    text-align: center;
+}
+#Idezet p {
+    margin-bottom: 0;
+}
+#Idezet cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #6c757d;
+}
 
+body {
+    background-color: #f8f9fa;
+}
+#KulHagy{
+    background-color: #f8f9fa;
+}
+.custom-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.custom-section h5 {
+    background-color: #a87d07;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.custom-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #343a40;
+}
+.custom-section:nth-child(even) h5 {
+    background-color: #5f03d6;
+}
 
 #logo,
 #footer-logo {
