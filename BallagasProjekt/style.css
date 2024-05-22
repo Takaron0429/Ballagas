@@ -10,7 +10,7 @@ body{
     margin-bottom: 20px;
 }
 .hatter{
-  background:  rgba(0, 0, 0, 0.7)  url(ProjektKepek-Szoveg/FFh.jpg);
+  background:   url(Images/bg2.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 100%;
@@ -27,8 +27,46 @@ body{
 }
 
 #Hagyomany{
-    color: white;
+    color: black;
     font-weight: 400;
+    font-size: xx-large;
+
+}
+#Hagyomany{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    background-color: lightgrey;
+}
+
+#Hagyomany h1 {
+   
+    margin-bottom: 30px;
+}
+
+#Hagyomany p {
+    text-align: justify;
+}
+
+#Hagyomany .row {
+    margin-bottom: 30px;
+}
+
+#Hagyomany .img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Hagyomany .col-md-6 img {
+    margin-bottom: 20px;
+}
+
+#Hagyomany .container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
 }
 #CC{
     font-weight: bolder;
@@ -166,3 +204,12 @@ th {
     
 }
 
+.dropdown-item{
+    color: black;
+    background-color: #343a40;
+}
+
+.kepek img{
+    height: 400px;
+    width: 100%;
+}
