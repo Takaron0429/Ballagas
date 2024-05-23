@@ -7,15 +7,21 @@
         mc:Ignorable="d"
         Title="rögzites" Height="450" Width="800">
     <Grid>
-        <Label Content="ugyid" HorizontalAlignment="Left" Margin="27,40,0,0" VerticalAlignment="Top"/>
-        <Label Content="cikkszam" HorizontalAlignment="Left" Margin="112,144,0,0" VerticalAlignment="Top"/>
-        <Label Content="allapot" HorizontalAlignment="Left" Margin="316,253,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" x:Name="ugyidtext" Margin="112,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" x:Name="cikkszamtext" Margin="234,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" x:Name="allapottext" Margin="429,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="mennyiseg" HorizontalAlignment="Left" Margin="489,364,0,0" VerticalAlignment="Top"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF2D34A4" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="ugyid" HorizontalAlignment="Left" Margin="147,261,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="16"/>
+        <Label Content="cikkszam" HorizontalAlignment="Left" Margin="136,352,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="16"/>
+        <Label Content="allapot" HorizontalAlignment="Left" Margin="489,266,0,0" VerticalAlignment="Top" FontFamily="Forte" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" x:Name="ugyidtext" Margin="268,273,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="cikkszamtext" Margin="268,364,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="allapottext" Margin="617,269,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="mennyiseg" HorizontalAlignment="Left" Margin="489,364,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Forte" Width="86"/>
         <TextBox HorizontalAlignment="Left" x:Name="mennyisegtext" Margin="617,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Content="rögzit" x:Name="rogzit" HorizontalAlignment="Left" Margin="112,364,0,0" VerticalAlignment="Top" Width="128" Height="42" Click="rogzit_Click" />
+        <Button Content="rögzit" x:Name="rogzit" HorizontalAlignment="Left" Margin="377,108,0,0" VerticalAlignment="Top" Width="128" Height="42" Click="rogzit_Click" FontSize="16" FontFamily="Forte" />
 
     </Grid>
 </Window>

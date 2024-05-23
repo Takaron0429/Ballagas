@@ -54,7 +54,7 @@ namespace Ballagasprojekt2024
                 MySqlConnection conn = connection();
                 conn.Open();
 
-                string code = $"INSERT INTO `megrendelés`(`ügyid`, `cikkszam`, `allapot`, `mennyiseg`) VALUES ('{ugyidtext.Text}','{cikkszamtext.Text}','{allapottext.Text}','{mennyisegtext.Text}')";
+                string code = $"INSERT INTO `megrendelés`(`ügyid`, `cikkszam`, `allapot`, `mennyiseg`) VALUES ('{int.Parse(ugyidtext.Text)}','{int.Parse(cikkszamtext.Text)}','{allapottext.Text}','{mennyisegtext.Text}')";
 
                 MySqlCommand cmd = new MySqlCommand(code);
                 MySqlDataReader dr = cmd.ExecuteReader();

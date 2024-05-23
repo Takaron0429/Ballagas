@@ -8,6 +8,11 @@ namespace Ballagasprojekt2024
 {
     internal class megrendeles
     {
+        public int ugyid;
+        public int cikkszam;
+        public string allapot;
+        public string mennyiseg;
+
         public megrendeles(int ugyid, int cikkszam, string allapot, string mennyiseg) 
         {
             this.ugyid = ugyid;
@@ -16,9 +21,6 @@ namespace Ballagasprojekt2024
             this.mennyiseg = mennyiseg;
         }
 
-        public int ugyid { get; set;}
-        public int cikkszam { get; set;}
-        public string allapot { get; set;}  
-        public string mennyiseg { get; set;}
+       
     }
 }

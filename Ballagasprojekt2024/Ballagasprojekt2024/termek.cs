@@ -8,6 +8,12 @@ namespace Ballagasprojekt2024
 {
     internal class termek
     {
+        public string neve;
+        public string leiras;
+        public int cikkszam;
+        public int ar;
+
+
         public termek (string neve, string leiras, int cikkszam, int ar)
         {
             this.neve = neve;
@@ -15,11 +21,5 @@ namespace Ballagasprojekt2024
             this.cikkszam = cikkszam;
             this.ar = ar;
         }
-
-        public string neve { get; set; }
-        public string leiras { get; set; }
-        public int cikkszam { get; set; }
-        public int ar { get; set; }
-
     }
 }
